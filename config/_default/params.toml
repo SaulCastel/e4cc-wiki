@@ -1,7 +1,7 @@
 [main]
     separator = "-"
     description = "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5."
-    enableDarkMode = true
+    enableDarkMode = false
     modes = ["light", "dark"]
     canonifyAssetsURLs = false
     endorse = true
@@ -9,7 +9,7 @@
     loading = "lazy"
     breakpoint = "md"
     [main.externalLinks]
-        cue = false
+        cue = true
         tab = false
     [main.build]
         transpiler = "libsass"
@@ -40,7 +40,7 @@
     checkVersion = false
 
 [home]
-    # sections = ["posts"]
+    sections = ["wiki"]
     fullCover = false
     centerHeadline = false
     style = ""
@@ -48,7 +48,7 @@
 [navigation]
     anchor = true
     logo = "/img/logo_icon.svg"
-    color = "body"
+    color = "primary"
     fixed = true
     offset = "5.5rem"
     search = true
@@ -62,7 +62,7 @@
     placement = "bottom-right"
 
 [sharing]
-    enabled = true
+    enabled = false
     sort = "weight"
     reverse = false
     webshare = true
@@ -99,21 +99,22 @@
     clipboard = true
 
 # toml-docs-start sections
-# [sections]
-#     [sections.posts]
-#         title = "Posts"
-#         sort = "date"
-#         reverse = true
-#         nested = true
-#         cols = 3
-#         color = ""
-#         padding = "0"
-#         header = "full"
-#         footer = "none"
-#         orientation = "stacked"
-#         style = "border-0 card-zoom"
-#         homepage = 3
-#         separator = true
+[sections]
+    [sections.wiki]
+        title = "Latest wiki articles"
+        reference = "All wiki articles"
+        sort = "date"
+        reverse = true
+        nested = true
+        cols = 3
+        color = ""
+        padding = "0"
+        header = "full"
+        footer = "none"
+        orientation = "stacked"
+        style = "border border-dark card-zoom p-3"
+        homepage = 3
+        separator = true
 # toml-docs-end sections
 
 [favicon]

@@ -1,6 +1,6 @@
 ---
-title: Welcome to Hinode!
-description: A clean documentation and blog theme for your Hugo site based on Bootstrap 5.
+title: Welcome to the E4CC Wiki!
+description: Look around or search for a specific topic
 thumbnail:
     url: /img/sunrise.jpg
     author: Harris Vo
@@ -9,7 +9,7 @@ thumbnail:
     originName: Unsplash
 actions:
   get-started:
-    url: "https://gethinode.com/docs"
-    title: "Get started"
+    url: "/wiki/must-know/rapport"
+    title: "Start here"
     icon: "fas book-open"
 ---
