@@ -1,0 +1,29 @@
+- title: "Step 1"
+  icon: fas thumbs-up
+  content:
+    Give kudos. What did the trainee do well?
+- title: "Step 2"
+  icon: fas circle-xmark
+  content:
+    Coach involves class in feedback, asks the mistake as a question. “GUYS IS THIS CORRECT”?
+- title: "Step 3"
+  icon: fas circle-check
+  content:
+    STUDENT GIVES THE CORRECT ANSWER. FOLLOW STEPS 2 TO 3 FOR EACH MISTAKE.
+- title: "Step 4"
+  icon: fas list-ol
+  content:
+    FIND MAIN AOI.
+- title: "Step 5"
+  icon: fas clock
+  content:
+    ONCE FEEDBACK IS PROVIDED, STUDENT HAS 10 SECONDS TO DO A RETAKE WITH PERFECT ENGLISH.
+- title: "Step 6"
+  icon: fas comment
+  content:
+    Hired/Not Hired (Right now, you are not hired YET because + area ofopportunity + GROWTH MINDSET)
+- title: "Step 7"
+  icon: fas star
+  content:
+    "COACH GIVES SCORES LINKING IT TO THE GOAL OF THE DAY.
+    SCORES BELOW 5: BUILD STUDENT'S CONFIDENCE."

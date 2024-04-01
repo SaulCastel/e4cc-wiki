@@ -15,3 +15,5 @@ Speaking activities and automatic fluency hace different instructions depending 
 ## Week 3 & 4
 
 {{< youtube 9zZBhhl40mE>}}
+
+{{< image src="http://e4ccsv.com/intranet/wp-content/uploads/2022/04/Imagen1.png" >}}

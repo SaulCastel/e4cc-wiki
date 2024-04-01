@@ -1,10 +1,10 @@
-title = "Hinode"
+title = "E4CC Wiki"
 copyright = "Copyright © 2024 Saul Castellanos | "
 paginate = 9
 enableGitInfo = false
 
 # additional settings
-baseURL = "https://localhost:1313/"
+baseURL = "https://e4ccwiki.netlify.app/"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true

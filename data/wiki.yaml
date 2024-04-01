@@ -1,3 +1,7 @@
+- title: Evaluation system
+- title: Kahoot links
+- title: When Do I get Paid?
+  link: wiki/when-do-i-get-paid
 - title: Must Know
   pages:
     - title: Rapport
@@ -8,12 +12,36 @@
     - title: Disciplinary process
     - title: Positive environment
     - title: Grammar/DPCP
-      link: grammar
+      link: wiki/must-know/grammar
     - title: Attendance
     - title: Speaking Activity & Automatic Fluency/DPCQ
-      link: speaking-activity
+      link: wiki/must-know/speaking-activity
     - title: Expositions
     - title: TPRS
     - title: Cameras always on
-      link: cameras
+      link: wiki/must-know/cameras
     - title: Submit evaluations
+- title: Intermediate Core Processes
+  link: wiki/int-core
+  pages:
+    - title: How To Create Rapport
+    - title: How To Do Earn The Right
+    - title: How To Check Homework
+    - title: How To Do Next Date Evaluation
+    - title: How To Do Mental Training
+    - title: How To Do DPCQ
+    - title: What is Yes! I Receive it, No! I don’t Receive it?
+      link: wiki/int-core/yes-i-receive-it-no-i-dont-receive-it
+    - title: How To Do Phrasal Verb Challenge
+    - title: How to Do Attendance Time
+    - title: How To Do Grammar
+    - title: How To Do Grammar Test
+    - title: How To Do Speaking Activity
+    - title: How To Do Recovery
+    - title: How To Do Intermediate Evaluation
+    - title: How To Do RAS
+    - title: How To Do DPCP 1
+    - title: How To Do DPCP 2
+- title: How To
+  pages:
+    - title: How to give feedback
