@@ -5,7 +5,7 @@
 
 [[main]]
   name = "Wiki"
-  pageRef = "/wiki"
+  pageRef = "/wiki/how-to-use-the-wiki"
   weight = 20
 
 [[social]]

@@ -41,7 +41,7 @@
 
 [home]
     sections = ["wiki"]
-    fullCover = false
+    fullCover = true
     centerHeadline = false
     style = ""
 

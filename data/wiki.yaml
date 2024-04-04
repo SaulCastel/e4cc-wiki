@@ -1,47 +1,43 @@
-- title: Evaluation system
-- title: Kahoot links
+- title: How to use the wiki
 - title: When Do I get Paid?
   link: wiki/when-do-i-get-paid
-- title: Must Know
+- title: Evaluation system
   pages:
-    - title: Rapport
-    - title: Earn the right
-    - title: Set the tone
-    - title: Clear expectations
-    - title: Homework
-    - title: Disciplinary process
-    - title: Positive environment
-    - title: Grammar/DPCP
-      link: wiki/must-know/grammar
-    - title: Attendance
-    - title: Speaking Activity & Automatic Fluency/DPCQ
-      link: wiki/must-know/speaking-activity
-    - title: Expositions
-    - title: TPRS
-    - title: Cameras always on
-      link: wiki/must-know/cameras
-    - title: Submit evaluations
-- title: Intermediate Core Processes
-  link: wiki/int-core
-  pages:
-    - title: How To Create Rapport
-    - title: How To Do Earn The Right
-    - title: How To Check Homework
-    - title: How To Do Next Date Evaluation
-    - title: How To Do Mental Training
-    - title: How To Do DPCQ
-    - title: What is Yes! I Receive it, No! I don’t Receive it?
-      link: wiki/int-core/yes-i-receive-it-no-i-dont-receive-it
-    - title: How To Do Phrasal Verb Challenge
-    - title: How to Do Attendance Time
-    - title: How To Do Grammar
-    - title: How To Do Grammar Test
-    - title: How To Do Speaking Activity
-    - title: How To Do Recovery
-    - title: How To Do Intermediate Evaluation
-    - title: How To Do RAS
-    - title: How To Do DPCP 1
-    - title: How To Do DPCP 2
-- title: How To
-  pages:
+    - title: Evaluation system
+    - title: Kahoot links
+    - title: How to do book quiz
+    - title: How to do movie oral presentation
+    - title: How to do deep level interviews
+    - title: How to do next level evaluation
+    - title: Where to check b4 swaps
     - title: How to give feedback
+- title: Class flow
+  pages:
+    - title: How to do Rapport
+      link: wiki/class-flow/rapport
+    - title: How to do Earn the Right
+      link: wiki/class-flow/earn-the-right
+    - title: How to Set the Tone
+      link: wiki/class-flow/set-the-tone
+    - title: How to set Clear Expectations
+      link: wiki/class-flow/clear-expectations
+    - title: How to check Homework
+      link: wiki/class-flow/homework
+    - title: How to do Disciplinary Process
+      link: wiki/class-flow/disciplinary-process
+    - title: How to create a Positive environment
+      link: wiki/class-flow/positive-environment
+    - title: How to do Grammar/DPCP
+      link: wiki/class-flow/grammar
+    - title: How to take Attendance
+      link: wiki/class-flow/attendance
+    - title: How to do Speaking Activity & Automatic Fluency/DPCQ
+      link: wiki/class-flow/speaking-activity
+    - title: How to assign Expositions
+      link: wiki/class-flow/expositions
+    - title: How to do TPRS
+      link: wiki/class-flow/tprs
+    - title: Cameras always on
+      link: wiki/class-flow/cameras
+    - title: How to Submit evaluations
+      link: wiki/class-flow/submit-evaluations
