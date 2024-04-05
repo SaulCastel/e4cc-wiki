@@ -16,6 +16,12 @@ weight: 6
     # originURL: 
 ---
 
+## Which levels have next level evaluations?
+
+**Basic 4 and Intermediate.**
+
+For levels Basic 1, 2 and 3, check out this article on {{< link "wiki/evaluation-system/how-to-do-monthly-evaluation" >}}Monthly evaluations.{{< /link >}}
+
 ## Why?
 
 To help trainees speak with perfect english to get a job faster, and to grade them based on their performance so they can pass to the next level.
@@ -30,7 +36,11 @@ To help trainees speak with perfect english to get a job faster, and to grade th
 
 ## Submitting evaluations
 
-Check {{<link "wiki/class-flow/submit-evaluations" >}}this article{{< /link >}} to know where to find the evaluation tab.
+{{< alert color="danger">}}
+**Next level evaluations need careful consideration.** Check this video to find out more.
+{{< /alert >}}
+
+{{< youtube Ydy7Q1FKIZA >}}
 
 ## Questionnaire
 
@@ -42,7 +52,7 @@ Use the questionnaire inside the {{< mark color="primary" >}}interview guide{{< 
 
 {{< youtube Y0rQZK0ywqc >}}
 
-## Note
+## Important
 
 {{< alert color="danger" >}}
     Sometimes, the system might fail, and the score won’t be saved in the homework tracker. Always try to keep a backup of the scores in case this happens.

@@ -3,7 +3,7 @@
 title: How to Do Movie Oral Presentation
 date: 2024-04-01
 description: How to Do Movie Oral Presentation
-weight: 4
+weight: 5
 # layout: 
 # description: 
 # tags: 
@@ -48,10 +48,12 @@ Check {{<link "wiki/class-flow/submit-evaluations" >}}this article{{< /link >}} 
 
 {{< youtube _oe80dRaeSg >}}
 
-## Important
+## What if a trainee missed the evaluation?
 
 {{< alert color="danger">}}
 If a student missed the movie oral presentation, let this person be the first in daily exposition or automatic fluency, and submit the score in that moment.
 
 **Let the trainee know it will only be allowed once as we need them to be responsible**
 {{< /alert >}}
+
+{{< youtube GkPqlAhxObE >}}

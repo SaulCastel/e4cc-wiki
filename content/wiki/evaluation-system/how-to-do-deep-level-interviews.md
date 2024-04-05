@@ -3,7 +3,7 @@
 title: How to Do Deep Level Interviews
 date: 2024-04-01
 description: How to Do Deep Level Interviews
-weight: 5
+weight: 4
 # layout: 
 # description: 
 # tags: 
@@ -21,7 +21,7 @@ weight: 5
 To push your trainee and have clarity on which areas they need to improve for the final evaluation.
 
 {{< alert color="info">}}
-We apply deep level evaluations on week 2 day 5
+We do deep level interviews on week 2 day 5
 {{< /alert >}}
 
 ## Tutorial

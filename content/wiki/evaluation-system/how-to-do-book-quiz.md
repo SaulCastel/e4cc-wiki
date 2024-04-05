@@ -41,3 +41,7 @@ For example, if a trainee has a 75% as a result, it means they got a 7.5 in the 
 ## Class flow
 
 {{< image src="img/book-quiz-timing.png" >}}
+
+## What if a trainee missed the evaluation?
+
+{{< youtube GkPqlAhxObE >}}

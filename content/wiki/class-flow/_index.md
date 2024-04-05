@@ -1,5 +1,5 @@
 ---
-title: Must know
+title: Class flow
 ---
 
 In this section, you'll learn all the must know core concepts and parts

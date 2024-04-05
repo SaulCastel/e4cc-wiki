@@ -8,7 +8,7 @@ weight: 11
 You assign the exposition for the week every monday
 
 {{< alert color="info" >}}
-B1 doesn't have expositions.
+Note: B1 doesn't have expositions.
 {{< /alert >}}
 
 {{< youtube bJjglpaEuZc >}}

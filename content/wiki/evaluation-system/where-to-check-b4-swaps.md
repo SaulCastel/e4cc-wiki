@@ -2,7 +2,7 @@
 # author: 
 title: Where to Check B4 Swaps
 date: 2024-04-03
-weight: 7
+weight: 8
 # layout: 
 # description: 
 # tags: 

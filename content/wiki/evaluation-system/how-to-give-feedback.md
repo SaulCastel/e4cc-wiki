@@ -3,7 +3,7 @@
 title: How to Give Feedback
 date: 2024-03-27
 description: How to properly give feedback
-weight: 8
+weight: 9
 # layout: 
 # description: 
 # tags: 
