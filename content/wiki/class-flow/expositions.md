@@ -1,5 +1,7 @@
 ---
 title: How to do Expositions
+date: 2024-03-18
+description: How to assign and do oral expositions
 weight: 11
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: How to do Earn the Right
 date: 2024-03-18
+description: How and when to do earn the right
 weight: 2
 ---
 

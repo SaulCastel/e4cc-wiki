@@ -1,6 +1,7 @@
 ---
 title: How to do Grammar/DPCP
 date: 2024-03-18
+description: How to do grammar (DPCP)
 weight: 8
 ---
 

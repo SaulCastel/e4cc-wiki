@@ -1,5 +1,7 @@
 ---
 title: How to do Speaking Activity & Automatic Fluency/DPCQ
+date: 2024-03-18
+description: How to do speaking activity and automatic fluency (DPCQ)
 weight: 10
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: How to do Rapport
 date: 2024-03-18
+description: How to do Rapport
 weight: 1
 ---
 

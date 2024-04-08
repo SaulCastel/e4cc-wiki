@@ -3,7 +3,7 @@
 title: How to Do Nesting
 date: 2024-04-04
 # layout: 
-description: How is my nesting process?
+description: Download the nesting process manual
 weight: 30
 # tags: 
 # icon: 

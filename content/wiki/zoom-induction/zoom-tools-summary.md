@@ -1,10 +1,10 @@
 ---
 # author: 
-title: How to Use Zoom
+title: Zoom Tools Summary
 date: 2024-04-05
 # layout: 
-description: How to use the Zoom application
-weight: 40
+description: Notes on how to use the Zoom application
+weight: 90
 # tags: 
 # icon: 
 # thumbnail: 
@@ -15,7 +15,7 @@ weight: 40
     # originURL: 
 ---
 
-Check this tutorial by one of our coordinators:
+Check this presentation by one of our coordinators:
 
 {{< button href="https://www.canva.com/design/DAFzlhBq1MU/yOoRDuhGMEg_Afkacg_WVw/view">}}
 Click here for the presentation

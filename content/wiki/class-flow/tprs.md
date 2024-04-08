@@ -1,6 +1,7 @@
 ---
 title: How to do TPRS
 date: 2024-03-18
+description: What is and how to do TPRS
 weight: 12
 ---
 

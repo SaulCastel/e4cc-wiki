@@ -1,5 +1,7 @@
 ---
 title: How to create a Positive environment
+date: 2024-03-18
+description: How to do mental training
 weight: 7
 ---
 

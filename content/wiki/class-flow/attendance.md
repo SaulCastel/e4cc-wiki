@@ -1,5 +1,6 @@
 ---
 title: How to take Attendance
+date: 2024-03-18
 description: How to take attendance | Merged groups | missing trainee in list
 weight: 9
 ---

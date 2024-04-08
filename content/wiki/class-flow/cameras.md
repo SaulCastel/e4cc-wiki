@@ -1,5 +1,7 @@
 ---
 title: Cameras always on
+date: 2024-03-18
+description: Cameras always on
 weight: 13
 ---
 
