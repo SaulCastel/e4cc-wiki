@@ -3,7 +3,7 @@ const suggestions = document.querySelector('.search-suggestions')
 const background = document.querySelector('.search-background')
 
 var index = new FlexSearch.Document({
-  tokenize: "forward",
+  tokenize: "full",
   cache: 100,
   document: {
     id: "id",
@@ -41,7 +41,7 @@ function initIndex() {
         {{ else -}}
           description: {{ .Summary | plainify | jsonify }},
         {{ end -}}
-        {{ $content := (replaceRE "[{}]" "" .Plain) }}
+        {{ $content := (replaceRE "[{}]|&.*;" "" .Plain) }}
         {{ if site.Params.modules.flexsearch.frontmatter }}
           {{ $key := site.Params.modules.flexsearch.filter | default "params" }}
           {{ $val := slice }}
@@ -111,6 +111,45 @@ function suggestionFocus(e) {
   }
 }
   
+function markMatch(text, match) {
+  const regex = new RegExp(match, 'gi')
+  return text.replaceAll(regex, (str) => `<mark>${str}</mark>`)
+}
+
+function getMatches(text, searchTerm, limit = 1) {
+	// create dynamic regex 😎
+	const regex = new RegExp(searchTerm, 'gi')
+  // word indexes
+	const indexes = []
+  // matches count
+	let matches = 0
+  // current match in loop
+	let match
+
+	while ((match = regex.exec(text)) !== null && matches < limit) {
+    indexes.push(match.index)
+		// increment matches
+		matches++
+	}
+
+  if (indexes.length > 0) {
+    // take the word index...
+    return indexes.map((index) => {
+      // go back 20 characters
+      const start = index - 40
+      // go forward 80 characters
+      const end = index + 120
+      // yoink the text
+      const excerpt = text.substring(start, end).trim()
+      // return excerpt 🤝
+      return `[...] ${markMatch(excerpt, searchTerm)} [...]`
+    })
+  }
+  else {
+    return text.substring(0, 80) + '[...]'
+  }
+}
+
 /*
 Source:
   - https://github.com/nextapps-de/flexsearch#index-documents-field-search
@@ -118,7 +157,7 @@ Source:
 */
 function showResults() {
   const maxResult = 5;
-  var searchQuery = this.value;
+  var searchQuery = this.value.trim();
   // filter the results for the currently tagged language
   const lang = document.documentElement.lang;
   var results = null;
@@ -133,12 +172,15 @@ function showResults() {
     }
   }
 
-  // flatten results since index.search() returns results for each indexed field
-  const flatResults = new Map(); // keyed by href to dedupe results
+  // dedupe results, organized by field
   if (results !== null) {
-    for (const result of results.flatMap(r => r.result)) {
-      if (flatResults.has(result.doc.href)) continue;
-      flatResults.set(result.doc.href, result.doc);
+    for (const category of results) {
+      const flatResults = new Map(); // keyed by href to dedupe results
+      for (const result of category.result ) {
+        if (flatResults.has(result.doc.href)) continue;
+        flatResults.set(result.doc.href, result.doc);
+      }
+      category.result = flatResults
     }
   }
 
@@ -146,7 +188,7 @@ function showResults() {
   suggestions.classList.remove('d-none');
   
   // inform user that no results were found
-  if (flatResults.size === 0 && searchQuery) {
+  if (results.size === 0 && searchQuery) {
     const msg = suggestions.dataset.noResults;
     const noResultsMessage = document.createElement('div')
     noResultsMessage.innerHTML = `${msg} "<strong>${searchQuery}</strong>"`
@@ -155,31 +197,43 @@ function showResults() {
     return;
   }
 
+  let count = 0;
   // construct a list of suggestions
-  for (const [href, doc] of flatResults) {
-    const entry = document.createElement('div');
-    suggestions.appendChild(entry);
+  for (const res of results) {
+    const category = document.createElement('span')
+    category.classList.add('suggestion__description')
+    category.classList.add('fw-bold')
+    category.textContent = `Matches by ${res.field}:`
+    suggestions.appendChild(category)
+    for (const [href, doc] of res.result) {
+      const entry = document.createElement('div');
+      suggestions.appendChild(entry);
 
-    const a = document.createElement('a');
-    a.href = href;
-    entry.appendChild(a);
+      const a = document.createElement('a');
+      a.href = href;
+      entry.appendChild(a);
 
-    const title = document.createElement('span');
-    title.classList.add('text-start');
-    title.textContent = doc.title;
-    title.classList.add("suggestion__title");
-    a.appendChild(title);
+      const title = document.createElement('span');
+      title.classList.add('text-start');
+      title.innerHTML = markMatch(doc.title, searchQuery);
+      title.classList.add("suggestion__title");
+      a.appendChild(title);
 
-    const description = document.createElement('span');
-    description.textContent = doc.description;
-    description.classList.add("suggestion__description");
-    a.appendChild(description);
+      const description = document.createElement('span');
+      if (res.field === 'content') {
+        description.innerHTML = getMatches(doc.content, searchQuery);
+      }
+      else {
+        description.innerHTML = markMatch(doc.description, searchQuery);
+      }
+      description.classList.add("suggestion__description");
+      a.appendChild(description);
 
-    suggestions.appendChild(entry);
-
-    if (suggestions.childElementCount == maxResult) break;
+      suggestions.appendChild(entry);
+      count++;
+    }
+    if (count === maxResult) break;
   }
-  console.log(results)
 }
   
 if (search !== null && suggestions !== null) {
