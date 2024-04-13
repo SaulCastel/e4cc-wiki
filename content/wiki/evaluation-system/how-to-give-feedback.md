@@ -17,3 +17,8 @@ weight: 9
 ---
 
 {{< timeline data="steps-feedback" >}}
+
+## Scoring criteria
+The score depends on the number of mistakes the trainee makes. Push them to reach the{{< link "wiki/faq/what-are-the-5-stars" >}}5 stars{{< /link >}}.
+
+{{< image src="img/scores.jpeg" >}}

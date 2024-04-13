@@ -4,9 +4,19 @@
   weight = 10
 
 [[main]]
+  name = "Our Values"
+  pageRef = "/about"
+  weight = 20
+
+[[main]]
+  name = "Employee Benefits"
+  pageRef = "/employee-benefits"
+  weight = 30
+
+[[main]]
   name = "Wiki"
   pageRef = "/wiki/how-to-use-the-wiki"
-  weight = 20
+  weight = 40
 
 [[social]]
   name = "LinkedIn"

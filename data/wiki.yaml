@@ -1,6 +1,6 @@
 - title: How to use the wiki
-- title: When Do I get Paid?
-  link: wiki/when-do-i-get-paid
+- title: When Do I get Paid
+- title: Candor
 - title: Evaluation system
   pages:
     - title: Evaluation system
@@ -42,6 +42,9 @@
       link: wiki/class-flow/cameras
     - title: How to Submit evaluations
       link: wiki/class-flow/submit-evaluations
+- title: Intermediate
+  pages:
+  - title: Intermediate interviews
 - title: How to be a super star coach
   pages:
   - title: Best practices 1
@@ -66,8 +69,14 @@
     - title: How to do LISTA
     - title: How to use the student platform
     - title: How to change my schedule
+    - title: Customer service number
+    - title: Referral program
+    - title: Trainee benefits
 - title: Miscellaneous
   pages:
     - title: How to do focus groups
     - title: How to submit QA recaps
     - title: How to do nesting
+- title: FAQ
+  pages:
+    - title: What are the 5 stars
