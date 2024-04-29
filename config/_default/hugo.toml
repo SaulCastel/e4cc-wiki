@@ -4,7 +4,7 @@ paginate = 9
 enableGitInfo = false
 
 # additional settings
-baseURL = "https://e4ccwiki.netlify.app/"
+baseURL = "/"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true

@@ -20,7 +20,7 @@ weight: 6
 
 **Basic 4 and Intermediate.**
 
-For levels Basic 1, 2 and 3, check out this article on {{< link "wiki/evaluation-system/how-to-do-monthly-evaluation" >}}Monthly evaluations.{{< /link >}}
+For levels Basic 1, 2 and 3, check out this article on {{< link "/wiki/evaluation-system/how-to-do-monthly-evaluation" >}}Monthly evaluations.{{< /link >}}
 
 ## Why?
 
